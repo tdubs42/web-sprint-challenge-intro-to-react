@@ -25,11 +25,7 @@ function PlanetCard(props) {
 						<CardTitle className='planetName' tag='h5'>
 							{planet.name.toUpperCase()}
 						</CardTitle>
-						<CardSubtitle
-							className='planetPopulation'
-							tag='h6'
-							className='mb-2 text-muted'
-						>
+						<CardSubtitle tag='h6' className='mb-2 text-muted'>
 							Population: {planet.population}
 						</CardSubtitle>
 						<CardText className='planetInfo'>
